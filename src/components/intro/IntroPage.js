@@ -5,7 +5,6 @@ import CustomButton from "../common/CustomButton";
 import { IMAGES } from "../../config/images";
 import { BUTTONS } from "../../config/buttons";
 import "./IntroPage.css";
-import Spline from "@splinetool/react-spline";
 import AuthModal from "../auth/AuthModal";
 
 const IntroPage = () => {
@@ -152,7 +151,7 @@ const IntroPage = () => {
         <Container text>
           <div className="hero-content animate-on-scroll">
             <Header as="h1" className="hero-title">
-              Intelligent Drive
+              Cloud Locker
               <div className="glowing-line"></div>
               <Header.Subheader>
                 Smart storage platform for the future
@@ -527,13 +526,13 @@ const IntroPage = () => {
         <Container>
           <div className="footer-content">
             <div className="footer-left">
-              <p>© 2024 GitHub, Inc.</p>
+              <p>© 2024 CloudLocker, Inc.</p>
               <div className="footer-links">
                 <a href="#">Terms</a>
                 <a href="#">Privacy (Updated 02/2024)</a>
                 <a href="#">Sitemap</a>
-                <a href="#">What is Git?</a>
-                <a href="#">Manage cookies</a>
+                <a href="#">What is Drive?</a>
+                <a href="#">Manage Drive</a>
                 <a href="#">Do not share my personal information</a>
               </div>
             </div>
