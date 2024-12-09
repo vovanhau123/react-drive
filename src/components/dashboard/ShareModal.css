@@ -1,0 +1,179 @@
+.share-modal {
+  background: var(--bg-secondary) !important;
+}
+
+.share-modal .header {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+}
+
+.share-modal .content {
+  background: var(--bg-secondary) !important;
+  padding: 20px !important;
+}
+
+.share-modal .actions {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+}
+
+/* Share Section */
+.share-section {
+  margin-bottom: 24px;
+}
+
+.share-section h4 {
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+/* Share Link */
+.share-link-container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.share-link-container input {
+  flex: 1;
+  background: rgba(22, 27, 34, 0.7) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  padding: 12px !important;
+  border-radius: 8px !important;
+  font-family: monospace;
+}
+
+.copy-button {
+  padding: 0 12px !important;
+}
+
+/* Share Options */
+.share-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.share-options .checkbox label {
+  color: var(--text-primary) !important;
+}
+
+/* Advanced Options */
+.advanced-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.advanced-options .field label {
+  color: var(--text-secondary) !important;
+  margin-bottom: 8px;
+}
+
+.advanced-options input {
+  background: rgba(22, 27, 34, 0.7) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  padding: 12px !important;
+  border-radius: 8px !important;
+}
+
+.advanced-options input:focus {
+  border-color: var(--accent-blue) !important;
+  background: rgba(22, 27, 34, 0.9) !important;
+}
+
+/* Add People Section */
+.add-people {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.add-people .input {
+  flex: 2;
+}
+
+.access-select {
+  flex: 1;
+}
+
+.ui.selection.dropdown {
+  background: rgba(22, 27, 34, 0.7) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.ui.selection.dropdown:hover,
+.ui.selection.dropdown:focus {
+  border-color: var(--accent-blue) !important;
+}
+
+.ui.selection.dropdown .menu {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  margin-top: 4px !important;
+  border-radius: 8px !important;
+}
+
+.ui.selection.dropdown .menu > .item {
+  border-top: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.ui.selection.dropdown .menu > .item:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Permissions Table */
+.permissions-table {
+  margin-top: 16px !important;
+}
+
+.permissions-table td {
+  padding: 12px 8px !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.permission-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-primary);
+}
+
+.permission-info i {
+  color: var(--text-secondary);
+}
+
+.ui.basic.label {
+  background: rgba(22, 27, 34, 0.7) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-color) !important;
+}
+
+.remove-permission {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.remove-permission:hover {
+  opacity: 1;
+  color: #ff4c4c;
+}
+
+/* Divider */
+.ui.divider {
+  border-top: 1px solid var(--border-color) !important;
+  margin: 24px 0 !important;
+} 

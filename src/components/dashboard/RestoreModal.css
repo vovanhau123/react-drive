@@ -1,0 +1,45 @@
+.restore-modal {
+  background: var(--bg-secondary) !important;
+}
+
+.restore-modal .header {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+}
+
+.restore-modal .content {
+  background: var(--bg-secondary) !important;
+  padding: 20px !important;
+}
+
+.restore-modal .actions {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+}
+
+.restore-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.restore-options .ui.radio.checkbox label {
+  color: var(--text-primary) !important;
+}
+
+.location-path {
+  color: var(--text-secondary);
+  font-family: monospace;
+  margin-left: 28px;
+  padding: 8px;
+  background: rgba(22, 27, 34, 0.7);
+  border-radius: 4px;
+  font-size: 0.9em;
+} 

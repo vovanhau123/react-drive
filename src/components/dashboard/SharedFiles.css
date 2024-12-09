@@ -1,0 +1,43 @@
+.shared-files {
+  height: 100%;
+}
+
+.shared-item {
+  position: relative;
+}
+
+.access-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(22, 27, 34, 0.9);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.access-badge.edit {
+  color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+}
+
+.access-badge.view {
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.shared-by {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.shared-by i {
+  font-size: 0.9em;
+} 

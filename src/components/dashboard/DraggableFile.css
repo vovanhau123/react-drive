@@ -1,0 +1,31 @@
+.draggable-file {
+  cursor: move;
+  position: relative;
+}
+
+.draggable-file.dragging {
+  cursor: grabbing;
+}
+
+.drag-preview {
+  position: fixed;
+  z-index: 1000;
+  pointer-events: none;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.drag-preview i {
+  color: var(--text-secondary);
+}
+
+.drag-preview span {
+  color: var(--text-primary);
+  font-size: 0.9em;
+} 

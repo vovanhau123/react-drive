@@ -1,0 +1,26 @@
+.starred-files {
+  height: 100%;
+}
+
+.star-indicator {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #f1c40f;
+  background: rgba(22, 27, 34, 0.9);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.star-indicator:hover {
+  transform: scale(1.1);
+}
+
+.starred-item:hover .star-indicator {
+  background: rgba(241, 196, 15, 0.1);
+} 

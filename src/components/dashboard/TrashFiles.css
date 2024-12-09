@@ -1,0 +1,79 @@
+.trash-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.trash-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgba(22, 27, 34, 0.7);
+  border-radius: 12px;
+  margin: 0 20px 20px;
+  border: 1px solid var(--border-color);
+}
+
+.trash-info {
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trash-info i {
+  color: #ff4c4c;
+}
+
+.trash-info p {
+  margin: 0;
+}
+
+.ui.negative.button {
+  background: rgba(255, 76, 76, 0.1) !important;
+  color: #ff4c4c !important;
+  border: 1px solid #ff4c4c !important;
+}
+
+.ui.negative.button:hover {
+  background: rgba(255, 76, 76, 0.2) !important;
+}
+
+.trash-item {
+  position: relative;
+}
+
+.expiry-info {
+  font-size: 0.85em;
+  color: #ff4c4c;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.expiry-info i {
+  font-size: 0.9em;
+}
+
+.restore-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(22, 27, 34, 0.9) !important;
+  color: var(--accent-blue) !important;
+  border: 1px solid var(--accent-blue) !important;
+  padding: 6px 12px !important;
+  font-size: 0.9em !important;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.trash-item:hover .restore-button {
+  opacity: 1;
+}
+
+.restore-button:hover {
+  background: rgba(88, 166, 255, 0.1) !important;
+} 

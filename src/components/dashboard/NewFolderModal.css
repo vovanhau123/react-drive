@@ -1,0 +1,134 @@
+.folder-modal {
+  background: var(--bg-secondary) !important;
+}
+
+.folder-modal .header {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+}
+
+.folder-modal .content {
+  background: var(--bg-secondary) !important;
+  padding: 20px !important;
+}
+
+.folder-modal .actions {
+  background: var(--bg-secondary) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 20px !important;
+}
+
+/* Form Styles */
+.folder-modal label {
+  color: var(--text-secondary) !important;
+  margin-bottom: 8px !important;
+  font-weight: 500 !important;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper i:first-child {
+  position: absolute;
+  left: 12px;
+  color: var(--text-secondary);
+}
+
+.input-wrapper input {
+  width: 100% !important;
+  background: rgba(22, 27, 34, 0.7) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  padding: 12px 12px 12px 40px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease;
+}
+
+.input-wrapper input:focus {
+  border-color: var(--accent-blue) !important;
+  background: rgba(22, 27, 34, 0.9) !important;
+  box-shadow: 0 0 0 2px rgba(88, 166, 255, 0.2) !important;
+}
+
+.clear-input {
+  position: absolute;
+  right: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.clear-input:hover {
+  opacity: 1;
+  color: var(--text-primary);
+}
+
+/* Error Styles */
+.error .input-wrapper input {
+  border-color: #ff4c4c !important;
+}
+
+.error-message {
+  color: #ff4c4c;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
+/* Suggestions */
+.suggestions {
+  margin-top: 16px;
+  padding: 12px;
+  background: rgba(22, 27, 34, 0.7);
+  border-radius: 8px;
+}
+
+.suggestions-title {
+  color: var(--text-secondary);
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+
+.suggestion-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  color: var(--text-primary);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.suggestion-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.suggestion-item i {
+  color: var(--text-secondary);
+}
+
+/* Current Path */
+.current-path {
+  margin-top: 20px;
+  padding: 12px;
+  background: rgba(22, 27, 34, 0.7);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current-path i {
+  color: var(--accent-blue);
+} 

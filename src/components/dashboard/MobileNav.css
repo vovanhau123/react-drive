@@ -1,0 +1,80 @@
+.mobile-nav {
+  background: var(--bg-secondary) !important;
+  border: none !important;
+  width: 280px !important;
+  padding: 0 !important;
+}
+
+.mobile-nav-header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.close-nav {
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.close-nav:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.mobile-upload-button {
+  margin: 16px !important;
+  width: calc(100% - 32px) !important;
+  background: var(--accent-blue) !important;
+  color: white !important;
+  border-radius: 30px !important;
+}
+
+.mobile-nav .item {
+  padding: 16px !important;
+  color: var(--text-secondary) !important;
+  border-radius: 0 !important;
+}
+
+.mobile-nav .item.active {
+  background: rgba(88, 166, 255, 0.1) !important;
+  color: var(--accent-blue) !important;
+}
+
+.mobile-nav .item i {
+  margin-right: 12px !important;
+}
+
+.mobile-storage-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: rgba(22, 27, 34, 0.7);
+  border-top: 1px solid var(--border-color);
+}
+
+.mobile-storage-info .storage-bar {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.mobile-storage-info .used {
+  height: 100%;
+  background: var(--accent-blue);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.mobile-storage-info p {
+  color: var(--text-secondary);
+  font-size: 0.9em;
+  margin: 0;
+} 
